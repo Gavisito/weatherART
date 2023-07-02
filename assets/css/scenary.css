@@ -1,0 +1,484 @@
+.art-container, .sky {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.sky {
+  background: -webkit-gradient(linear, left top, left bottom, from(#472d30), color-stop(#723d46), color-stop(#e26d5c), color-stop(#f1a782), color-stop(#ffe1a8), to(#c9cba3));
+  background: linear-gradient(#472d30, #723d46, #e26d5c, #f1a782, #ffe1a8, #c9cba3);
+}
+
+.clouds {
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  z-index: 1;
+}
+
+.plane {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 8%;
+}
+
+.sun {
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  background: rgb(232, 169, 140);
+  border-radius: 50%;
+  right: 17%;
+  top: 3%;
+  -webkit-box-shadow: 0 0 11px rgb(219, 223, 235);
+          box-shadow: 0 0 11px rgb(219, 223, 235);
+  z-index: 0;
+}
+
+.moon {
+  display: none;
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  background: rgb(225, 223, 218);
+  border-radius: 50%;
+  right: 20%;
+  bottom: 40%;
+  -webkit-box-shadow: 0 0 11px rgb(219, 223, 235);
+          box-shadow: 0 0 11px rgb(219, 223, 235);
+  z-index: 0;
+}
+
+.mooncrater1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 33%;
+  bottom: 33%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater2 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 30%;
+  bottom: 10%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater3 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 15%;
+  bottom: 60%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater4 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 70%;
+  bottom: 60%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater5 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 65%;
+  bottom: 20%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater6 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 65%;
+  bottom: 43%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater7 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 85%;
+  bottom: 48%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater8 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 20%;
+  bottom: 48%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater9 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 15%;
+  bottom: 30%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.mooncrater10 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  right: 49%;
+  bottom: 70%;
+  border: 1px solid black;
+  background-color: lightslategray;
+  opacity: 10%;
+  -webkit-box-shadow: 0 0 15px rgb(0, 0, 0);
+          box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.cloud1 {
+  position: absolute;
+  width: 25vw;
+  height: 20vh;
+  background: rgb(255, 253, 249);
+  bottom: 50%;
+  right: 5%;
+  -webkit-clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+          clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+}
+
+.cloud2 {
+  position: absolute;
+  width: 25vw;
+  height: 20vh;
+  background: rgb(255, 253, 249);
+  bottom: 30%;
+  right: 20%;
+  -webkit-clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+          clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+}
+
+.cloud3 {
+  position: absolute;
+  width: 25vw;
+  height: 20vh;
+  background: rgb(255, 253, 249);
+  bottom: 2%;
+  right: 20%;
+  -webkit-clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+          clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+}
+
+.cloud4 {
+  position: absolute;
+  width: 25vw;
+  height: 20vh;
+  background: rgb(255, 253, 249);
+  bottom: 25%;
+  right: 50%;
+  -webkit-clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+          clip-path: polygon(50% 0%, 70% 10%, 78% 30%, 100% 50%, 1000% 20%, 80% 50%, 50% 60%, 40% 60%, 0% 50%, 25% 12%, 25% 25%);
+}
+
+.terrain {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+}
+
+.bodyofwater {
+  position: absolute;
+  width: 100%;
+  height: 37vh;
+  bottom: 10%;
+  background: #9a7e73;
+}
+
+.mountain1 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 90%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 25vw solid transparent;
+  border-bottom: 50vh solid rgb(112, 106, 106);
+  border-left: 30vw solid transparent;
+  z-index: 1;
+}
+.mountain1-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(90% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 25vw solid transparent;
+  border-bottom: 50vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 2;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(21deg);
+          transform: skewX(21deg);
+}
+
+.mountain2 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 75%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 30vh solid rgb(112, 106, 106);
+  border-left: 25vw solid transparent;
+  z-index: 1;
+}
+.mountain2-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(75% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 30vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 2;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(21deg);
+          transform: skewX(21deg);
+}
+
+.mountain3 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 78%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 35vh solid rgb(112, 106, 106);
+  border-left: 25vw solid transparent;
+  z-index: 1;
+}
+.mountain3-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(78% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 35vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 2;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(21deg);
+          transform: skewX(21deg);
+}
+
+.mountain4 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 11%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 50vh solid rgb(112, 106, 106);
+  border-left: 25vw solid transparent;
+  z-index: 1;
+}
+.mountain4-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(11% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 20vw solid transparent;
+  border-bottom: 50vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 2;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+.mountain5 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 22%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 33vh solid rgb(112, 106, 106);
+  border-left: 18vw solid transparent;
+  z-index: 2;
+}
+.mountain5-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(22% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 33vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 3;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+.mountain6 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 33%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 40vh solid rgb(112, 106, 106);
+  border-left: 18vw solid transparent;
+  z-index: 1;
+}
+.mountain6-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(33% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 40vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 2;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+.mountain7 {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 60%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 23vh solid rgb(112, 106, 106);
+  border-left: 18vw solid transparent;
+  z-index: 2;
+}
+.mountain7-shadow {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: calc(60% + 2.5%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 0 solid transparent;
+  border-right: 13vw solid transparent;
+  border-bottom: 23vh solid #383838;
+  border-left: 0 solid transparent;
+  z-index: 3;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
